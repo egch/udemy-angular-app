@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class ServersComponent {
   allowNewServer = false;
-  serverName = '';
+  serverName = 'TestServer';
   serverCreationStatus = 'No server was created!';
 
   constructor(){
